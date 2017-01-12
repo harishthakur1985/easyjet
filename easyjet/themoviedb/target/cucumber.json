@@ -1,0 +1,1403 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3653328749,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the movie DB",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_navigate_to_compare_the_market()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 487160528,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 609882189,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"Game of thrones\" TV show",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Game of thrones",
+                  "offset": 14
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_search_for_TV_show(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2969993731,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Game of thrones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Game of thrones",
+                  "offset": 12
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_Game_of_thrones(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8348041847,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "The actor is not in season 6 episode 1",
+        "description": "",
+        "id": "check-actor-on-the-movie-db;the-actor-is-not-in-season-6-episode-1",
+        "after": [
+          {
+            "result": {
+              "duration": 992636992,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6497654749,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the season 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 22
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_the_season(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3515294860,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on full cast and crew for episode 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 42
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_full_cast_and_crew_for_episode(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4502433282,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the actor \"Nell Tiger Free\" is not present in season regular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nell Tiger Free",
+                  "offset": 11
+                },
+                {
+                  "val": "not present",
+                  "offset": 31
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_actor_is_not_present_in_season_regular(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 797624274,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the actor \"Nell Tiger Free\" is not present in guest stars",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nell Tiger Free",
+                  "offset": 11
+                },
+                {
+                  "val": "not present",
+                  "offset": 31
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_actor_is_not_present_in_guest_stars(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3088941909,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the movie DB",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_navigate_to_compare_the_market()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291184603,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298176538,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"Game of thrones\" TV show",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Game of thrones",
+                  "offset": 14
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_search_for_TV_show(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2799652535,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Game of thrones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Game of thrones",
+                  "offset": 12
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_Game_of_thrones(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6696388447,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "The actor is in season 5 episode 1 as main cast member but not as a guest actor",
+        "description": "",
+        "id": "check-actor-on-the-movie-db;the-actor-is-in-season-5-episode-1-as-main-cast-member-but-not-as-a-guest-actor",
+        "after": [
+          {
+            "result": {
+              "duration": 630398499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5093676625,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the season 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 22
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_the_season(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4216943049,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on full cast and crew for episode 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 42
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_full_cast_and_crew_for_episode(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3898445604,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the actor \"Nell Tiger Free\" is present in season regular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nell Tiger Free",
+                  "offset": 11
+                },
+                {
+                  "val": "present",
+                  "offset": 31
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_actor_is_not_present_in_season_regular(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 233788910,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the actor \"Nell Tiger Free\" is not present in guest stars",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nell Tiger Free",
+                  "offset": 11
+                },
+                {
+                  "val": "not present",
+                  "offset": 31
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_actor_is_not_present_in_guest_stars(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3180654223,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the movie DB",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_navigate_to_compare_the_market()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 347537743,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 389143946,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"Game of thrones\" TV show",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Game of thrones",
+                  "offset": 14
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_search_for_TV_show(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2772527992,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Game of thrones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Game of thrones",
+                  "offset": 12
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_Game_of_thrones(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5999338782,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "The actor is in season 5 episode 2 as main cast member and as a guest actor",
+        "description": "",
+        "id": "check-actor-on-the-movie-db;the-actor-is-in-season-5-episode-2-as-main-cast-member-and-as-a-guest-actor",
+        "after": [
+          {
+            "result": {
+              "duration": 735382543,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4427740127,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on the season 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 22
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_the_season(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4694913240,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I select episode 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 17
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_select_episode(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482723460,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on full cast and crew for episode 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 42
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_full_cast_and_crew_for_episode(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3934055844,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the actor \"Nell Tiger Free\" is present in season regular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nell Tiger Free",
+                  "offset": 11
+                },
+                {
+                  "val": "present",
+                  "offset": 31
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_actor_is_not_present_in_season_regular(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70333064,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the actor \"Nell Tiger Free\" is present in guest stars",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nell Tiger Free",
+                  "offset": 11
+                },
+                {
+                  "val": "present",
+                  "offset": 31
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_actor_is_not_present_in_guest_stars(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check actor on The movie DB",
+    "description": "I want to go themovieDB website \r\nand verify the actor is present in specific episodes only",
+    "id": "check-actor-on-the-movie-db",
+    "keyword": "Feature",
+    "uri": "features/ValidateCastName.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3084684455,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the movie DB",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_navigate_to_compare_the_market()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 343807290,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459591885,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"Breaking Bad\" TV show",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 14
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_search_for_TV_show(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4358538436,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Breaking Bad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 12
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_Game_of_thrones(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6660442664,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "For Breaking Bad confirm the episodes per season is correct",
+        "description": "",
+        "id": "check-episodes-on-the-movie-db;for-breaking-bad-confirm-the-episodes-per-season-is-correct;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 853514364,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5183436865,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the season 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 22
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_the_season(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4580192120,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on season 5 page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_am_on_season_page(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124385955,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the number of episodes are 16",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 27
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_number_of_episodes_are(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2670142633,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the movie DB",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_navigate_to_compare_the_market()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 472531229,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465577979,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"Breaking Bad\" TV show",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 14
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_search_for_TV_show(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2781190540,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Breaking Bad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 12
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_Game_of_thrones(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6808560622,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "For Breaking Bad confirm the episodes per season is correct",
+        "description": "",
+        "id": "check-episodes-on-the-movie-db;for-breaking-bad-confirm-the-episodes-per-season-is-correct;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 774853111,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4681884681,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the season 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 22
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_the_season(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3500742538,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on season 4 page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 15
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_am_on_season_page(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 357539306,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the number of episodes are 13",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 27
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_number_of_episodes_are(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2477529248,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the movie DB",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_navigate_to_compare_the_market()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 589531281,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 685980284,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"Breaking Bad\" TV show",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 14
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_search_for_TV_show(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3721080498,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Breaking Bad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 12
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_Game_of_thrones(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6883476815,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "For Breaking Bad confirm the episodes per season is correct",
+        "description": "",
+        "id": "check-episodes-on-the-movie-db;for-breaking-bad-confirm-the-episodes-per-season-is-correct;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 882755593,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3991776817,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the season 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_the_season(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3309312238,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on season 3 page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 15
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_am_on_season_page(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126387768,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the number of episodes are 13",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 27
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_number_of_episodes_are(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2983868650,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the movie DB",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_navigate_to_compare_the_market()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 502926334,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 346839813,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"Breaking Bad\" TV show",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 14
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_search_for_TV_show(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2747613694,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Breaking Bad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 12
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_Game_of_thrones(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6724515278,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "For Breaking Bad confirm the episodes per season is correct",
+        "description": "",
+        "id": "check-episodes-on-the-movie-db;for-breaking-bad-confirm-the-episodes-per-season-is-correct;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 608453563,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6337247613,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the season 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 22
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_the_season(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5266638218,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on season 2 page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 15
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_am_on_season_page(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75346478,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the number of episodes are 13",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 27
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_number_of_episodes_are(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3495610697,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the movie DB",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_navigate_to_compare_the_market()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 392613071,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "TheMovieDBStepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 299844387,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"Breaking Bad\" TV show",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 14
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_search_for_TV_show(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2679822865,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"Breaking Bad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Breaking Bad",
+                  "offset": 12
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_Game_of_thrones(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7002081553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "For Breaking Bad confirm the episodes per season is correct",
+        "description": "",
+        "id": "check-episodes-on-the-movie-db;for-breaking-bad-confirm-the-episodes-per-season-is-correct;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 710326527,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BrowserDriver.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5854948910,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the season 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_click_on_the_season(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3271592813,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on season 1 page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "TheMovieDBStepDefs.i_am_on_season_page(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129948477,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the number of episodes are 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 27
+                }
+              ],
+              "location": "TheMovieDBStepDefs.the_number_of_episodes_are(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check episodes on The Movie DB",
+    "description": "I want to go themovieDB website \r\nand verify the number of episodes per season",
+    "id": "check-episodes-on-the-movie-db",
+    "keyword": "Feature",
+    "uri": "features/ValidateNumberOfEpisodes.feature"
+  }
+]
